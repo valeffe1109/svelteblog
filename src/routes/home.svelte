@@ -1,6 +1,6 @@
 <script context="module"> 
 export async function preload(page){
-    return this.fetch('http://localhost:2368/ghost/api/v2/content/pages/?key=15304c3b4595061a489e0cc886')
+    return this.fetch('https://blogallelica.herokuapp.com/ghost/api/v2/content/pages/?key=894290040c92bcad78f8477989')
     .then(res=>{
         return res.json();
     })
